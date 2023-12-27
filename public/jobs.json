@@ -1,7 +1,7 @@
 [
      {
       "id": 1,
-      "logo": "https://i.ibb.co/GTQswYP/google-1.png",
+      "logo": "https://i.ibb.co/HhBVgTq/google-2.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "logo": "https://i.ibb.co/6bNpTDY/netflix-logo-png-2574-1.png",
+        "logo": "https://i.ibb.co/sy949BY/Netflix-1.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
@@ -39,7 +39,7 @@
       },
       {
         "id": 3,
-        "logo": "https://i.ibb.co/d7QQXcR/tesla-logo-1.png",
+        "logo": "https://i.ibb.co/k4QY6X5/tesla-logo-2.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
@@ -58,7 +58,7 @@
       },
       {
         "id": 4,
-        "logo": "https://i.ibb.co/GTQswYP/google-1.png",
+        "logo": "https://i.ibb.co/HhBVgTq/google-2.png",
         "job_title": "Software Engineer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Onsite",
@@ -77,7 +77,7 @@
       },
       {
         "id": 5,
-        "logo": "https://i.ibb.co/d7QQXcR/tesla-logo-1.png",
+        "logo": "https://i.ibb.co/k4QY6X5/tesla-logo-2.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Remote",
@@ -96,7 +96,7 @@
       },
       {
         "id": 6,
-        "logo": "https://i.ibb.co/6bNpTDY/netflix-logo-png-2574-1.png",
+        "logo": "https://i.ibb.co/sy949BY/Netflix-1.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Remote",
