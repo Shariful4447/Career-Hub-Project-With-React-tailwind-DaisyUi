@@ -13,7 +13,7 @@ const FeaturedJobs = () => {
     }, [])
     return (
         <div>
-            <h2 className="text-5xl">Featured Jobs: {jobs.length}</h2>
+            <h2 className="text-5xl">Featured Jobs</h2>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
             <div className="grid grid-cols-2 gap-6"> 
@@ -22,7 +22,7 @@ const FeaturedJobs = () => {
                 }
             </div>
 
-            <div>
+            <div className={dataLength === jobs.length && 'hidden'}>
                 <button onClick={() => setDataLength(jobs.length)} className="btn btn-primary bg-gradient-to-r from-violet-500 to-fuchsia-500 mb-2">Show More</button>
             </div>
         </div>

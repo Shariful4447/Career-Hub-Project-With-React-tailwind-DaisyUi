@@ -1,9 +1,10 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { PiCurrencyCircleDollar } from "react-icons/pi"
+import { Link } from "react-router-dom";
 
 
 const Job = ({job}) => {
-    const {logo, job_title, company_name, remote_or_onsite, location, job_type, salary} = job;
+    const {id, logo, job_title, company_name, remote_or_onsite, location, job_type, salary} = job;
     return (
         <div className="card card-compact bg-base-100 shadow-xl my-10">
         <figure><img className="content-start" src={logo} alt="Shoes" /></figure>
@@ -18,7 +19,9 @@ const Job = ({job}) => {
                 
             </div>
             <div className="card-actions ">
-            <button className="btn btn-primary bg-gradient-to-r from-violet-500 to-fuchsia-500">View Details</button>
+            <Link to={`/job/${id}`}>
+                <button className="btn btn-primary bg-gradient-to-r from-violet-500 to-fuchsia-500">View Details</button>
+            </Link>
             </div>
         </div>
         </div>
