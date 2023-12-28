@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { saveJobApplication } from "../../utility/localStorage";
 
 
 const JobDetails = () => {
@@ -12,7 +13,10 @@ const JobDetails = () => {
 
     console.log(job);
 
-    const handleAppliedJob =() => toast("Applied Successfully");
+    const handleAppliedJob =() =>{
+        saveJobApplication(idInt);
+        toast("Applied Successfully");
+    } 
     return (
         <div>
             <h2 className="text-center">Job Details Of :  {job.job_title}</h2>
